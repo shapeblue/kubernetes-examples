@@ -2,7 +2,7 @@
 secretGenerator:
 - name: mysql-pass
   literals:
-  - password=P@ssword123
+  - password=PASSWORD_HERE
 resources:
   - local-volumes.yaml
   - mysql-deployment.yaml
